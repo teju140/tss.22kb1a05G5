@@ -1,0 +1,27 @@
+/* Style for each cell on the board */
+.cell {
+    aspect-ratio: 1/1; /* Make cells square */
+    font-size: 2rem; /* Larger text for X and O */
+    font-weight: bold;
+    color: white; /* White text color */
+    border: 2px solid #343a40; /* Dark border */
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Style for the winner card */
+.winner-card {
+    display: none; /* Hidden by default */
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text color */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Style for the video inside the winner card */
+.winner-card video {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
